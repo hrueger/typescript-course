@@ -11,7 +11,7 @@ Install Node.js from their [download page](https://nodejs.org/en/download/). If 
 
 Create a new folder for this course. Inside, you will create all the files as the course goes on. Be sure to name your files meaningful, so that you always know, which files belong to which chapter. I recommand a scheme like `00_introduction_01.ts` for the first example in chapter 0 Introduction.
 
-Typescript files always end in `.ts`.
+Be sure to try out all examples and test yourself with the exercises!
 
 ---
 Then proceed to the [next chaper](./01_Working_with_TypeScript.md).
