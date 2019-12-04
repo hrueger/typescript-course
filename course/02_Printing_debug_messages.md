@@ -15,5 +15,18 @@ It is best practise, to end every line in TypeScript with a semicolon, but you c
 ## Exercise
 Create a little program, that outputs one warning and two info messages!
 
+# Comments
+Sometimes you want to write comments in the code. Those can be for documentation or information purposes. You prefix one-line-comments with two slashes `//`. Multiline comments are put between `/*` and `*/`. The TypeScript compiler will ignore them.
+```typescript
+console.log("The following comment will be ignored!");
+// This is a single line comment
+/* This
+comment
+takes
+multiple
+lines */
+console.log("Did you see any output of these comments?");
+```
+
 ---
 Now, proceed to the [next chapter](./03_Strings.md).
