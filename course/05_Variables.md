@@ -30,5 +30,15 @@ Notice, that the `let` keyword is missing in the third line, as the variable is 
 ## Exercise
 Create a little program, which defines two variables, one with the string `"Hello World - My favourite number is "`, and the other one with the number 3. Then print everything with one `console.log()`, so that it outputs `"Hello World - My favourite number is 3"`.
 
+
+# Constants
+For variables which will never change while the program is running, like for example configurations, use a constant. It works like a variable, but you cannot override the value.
+```typescript
+const myConstantNumber = 3;
+console.log(myConstantNumber);
+// The following line will throw an error!!!
+myConstantNumber = 4;
+```
+
 ---
-Then, proceed to the [next chapter](./06_Datatypes.md)
+Then, proceed to the [next chapter](./06_Datatypes.md).
