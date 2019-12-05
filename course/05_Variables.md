@@ -3,7 +3,7 @@ We always directly printed the result of our calculations and addition of string
 
 Variables can be imagined as little bags where we can insert things and get them back.
 
-Variables always start with the `let` keyword followed by the varable name. A keyword is a certain word defined by the language itself, you cannot change it. You can't name your variables like the keywords, as this wouldn't make sense.
+Variables always start with the `let` keyword followed by the variable name. A keyword is a certain word defined by the language itself, you cannot change it. You can't name your variables like the keywords, as this wouldn't make sense.
 
 Let's create a variable and save a string in it:
 ```typescript
