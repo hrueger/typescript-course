@@ -45,4 +45,4 @@ Why do you need `fruits.length - 1`? Remember, that the counting of the array in
 Create a little program with a list of six colors and output the first, the third and the last color. Then, change the first color to the last color and output the first color again.
 
 ---
-Now, proceed to the [next chapter](./09_For_loops).
+Now, proceed to the [next chapter](./09_For_loops.md).
