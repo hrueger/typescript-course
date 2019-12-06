@@ -1,5 +1,5 @@
-# Typescript Course
-This is a little Typescript course I created. [Start right here!](./course/00_Introduction.md)
+# TypeScript Course
+This is a little TypeScript course I created. [Start right here!](./course/00_Introduction.md)
 
 ## Table of contents
 0. [Introduction](./course/00_Introduction.md)
