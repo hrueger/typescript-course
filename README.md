@@ -12,6 +12,7 @@ This is a little TypeScript course I created. [Start right here!](./course/00_In
 7. [Conditions](./course/07_Conditions.md)
 8. [Arrays](./course/08_Arrays.md)
 9. [For loops](./course/09_For_loops.md)
+10. [While loops](./course/10_While_loops.md)
 
 ---
 ## Contribution
