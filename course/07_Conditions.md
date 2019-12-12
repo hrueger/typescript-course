@@ -68,6 +68,17 @@ if (myVar) {
 ```
 This is useful for checking if the variable has an actual value.
 
+If you want to check if a something is not equal, or if a boolean variable is false, you can use a NOT gate. This is done simply by putting a `!` before the condition.
+```typescript
+if(!myCoolNumber == 7){
+    //do something
+}
+```
+```typescript
+if(!condition){
+    //do this
+}
+```
 If you want to check if the variable is `false` and you don't want the condition to become true if the variable is `undefined`, `0`, or `null`, you can use the `===` operator. This one checks exactly for the following value.
 
 ## Exercise
