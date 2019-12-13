@@ -28,13 +28,13 @@ while (true) {
     }
     console.log("Incorrect. Try again.");
 }
-console.log("Correct. Access granted.")
+console.log("Correct. Access granted.");
 ```
 
 Another useful tool is the `continue` command. It is similar to the `break` command in that it instantly skips the entire rest of the current iteration of the loop, but after that, instead of ending the loop, it starts it again.
 
 ```typescript
-let fruits: string[] = ["apple","coconut","apple","banana","coconut","dragonfruit"]
+let fruits: string[] = ["apple", "coconut", "apple", "banana", "coconut", "dragonfruit"];
 let count: number = 0;
 
 for (n = 0; n <= fruits.length - 1; n++) {
@@ -43,7 +43,7 @@ for (n = 0; n <= fruits.length - 1; n++) {
    }
    count++;
 }
-console.log (" The number of fruits that are not apples is: " + count)
+console.log (" The number of fruits that are not apples is: " + count);
 ```
 
 ## Exercise
@@ -51,4 +51,4 @@ Make a loop that picks a random number from 1 to 100, and have it run continuous
 
 ---
 
-Then, go on with the [next chapter](./11_Shortcutss.md).
+Then, go on with the [next chapter](./11_Shortcuts.md).

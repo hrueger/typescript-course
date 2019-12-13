@@ -17,11 +17,11 @@ let favoriteFruit: string = "banana";
 
 if (favoriteFruit == "apple"){
     console.log("Favorite fruit is red");
-} else if (favoriteFruit == "coconut"){
+} else if (favoriteFruit == "coconut") {
     console.log("Favorite fruit is white");
-} else if (favoriteFruit == "banana"){
+} else if (favoriteFruit == "banana") {
     console.log("Favorite fruit is yellow");
-} else if (favoriteFruit == "dragonfruit"){
+} else if (favoriteFruit == "dragonfruit") {
     console.log("Favorite fruit is pink");
 } else {
     console.log("Favorite fruit is unknown");
@@ -51,7 +51,7 @@ switch (favoriteFruit) {
 }
 ```
 
-SKFUH
+The `breaks` are placed to stop the computer from checking all the following cases, since if one case is confirmed, we don't want to waste computing power checking others when we've already found the correct one.
 
 
 ## Exercise
@@ -59,4 +59,4 @@ Make a program that runs through the contents of an array full of fruits, and fo
 
 ---
 
-Then, go on with the [next chapter](./next_chapter.md).
+Then, go on with the [next chapter](./12_Functions.md).
