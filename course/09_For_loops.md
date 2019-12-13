@@ -1,7 +1,7 @@
 # Chapter 9: For loops
 If you want to iterate through arrays or if you want to count from one to ten, it's very bad to do it like this:
 ```typescript
-var myFruits: string[] = ["apple", "banana", "coconut", "dragonfruit"];
+let myFruits: string[] = ["apple", "banana", "coconut", "dragonfruit"];
 console.log("Fruit with index 0: " + fruits[0]);
 console.log("Fruit with index 1: " + fruits[1]);
 console.log("Fruit with index 2: " + fruits[2]);
@@ -27,7 +27,7 @@ for (let i = 0; i < 10; i++) {
 
 We can also iterate through arrays using the same technique. The only difference is, that our condition compares the counter and the length of the array. Like so:
 ```typescript
-var myFruits: string[] = ["apple", "banana", "coconut", "dragonfruit"];
+let myFruits: string[] = ["apple", "banana", "coconut", "dragonfruit"];
 for (let i = 0; i < myFruits.length; i++) {
     console.log("This is round #" + i + " and the fruit is " + myFruits[i]);
 }
@@ -39,4 +39,4 @@ Create a little program, which outputs the fruits in __reversed__ order.
 
 ---
 
-Then, go on with the [next chapter](./10_While_loop.md)
+Then, go on with the [next chapter](./10_While_loops.md).

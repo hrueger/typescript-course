@@ -70,7 +70,7 @@ This is useful for checking if the variable has an actual value.
 
 If you want to check if a something is not equal, or if a boolean variable is false, you can use a NOT gate. This is done simply by putting a `!` before the condition.
 ```typescript
-if(!myCoolNumber == 7){
+if(myCoolNumber != 7){
     //do something
 }
 ```
