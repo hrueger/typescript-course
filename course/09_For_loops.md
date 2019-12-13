@@ -39,4 +39,4 @@ Create a little program, which outputs the fruits in __reversed__ order.
 
 ---
 
-Then, go on with the [next chapter](./10_While_loop.md).
+Then, go on with the [next chapter](./10_While_loops.md).

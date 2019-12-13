@@ -26,24 +26,22 @@ while(true) {
     if(code == 19380274) {
         break;
     }
-    console.log("Incorrect. Try again!");
+    console.log("Incorrect. Try again.");
 }
-console.log("Passcode correct. Access granted.")
+console.log("Correct. Access granted.")
 ```
 
 Another useful tool is the `continue` command. It is similar to the `break` command in that it instantly skips the entire rest of the current iteration of the loop, but after that, instead of ending the loop, it starts it again.
 
 ```typescript
-let num: number = 0;
+let fruits: string[] = ["apple","coconut","apple","banana","coconut","dragonfruit"]
 let count: number = 0;
 
-for(num = 0; num <= 20; num++) {
-   if (num % 2 == 0) {
+for(n = 0; n <= fruits.length - 1; n++) {
+   if (fruits[n] == "apple") {
       continue;
    }
    count++;
 }
-console.log (" The count of odd values between 0 and 20 is: "+count)    // outputs 10
-
-// the % sign outputs the remainder of the following number divided by 2. Used almost specifically for checking whether something is even or odd.
+console.log (" The number of fruits that are not apples is: " + count)
 ```
