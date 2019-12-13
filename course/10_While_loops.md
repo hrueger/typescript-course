@@ -45,3 +45,10 @@ for(n = 0; n <= fruits.length - 1; n++) {
 }
 console.log (" The number of fruits that are not apples is: " + count)
 ```
+
+## Exercise
+Make a loop that picks a random number from 1 to 100, and have it run continuously until it lands on 42.
+
+---
+
+Then, go on with the [next chapter](./11_Shortcutss.md).
