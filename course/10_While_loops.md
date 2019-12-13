@@ -4,9 +4,9 @@ A slightly simpler version of a loop, is a `while()` loop. A while loop is given
 ```typescript
 let access: boolean = false;
 let code: number;
-while(!access) {
+while (!access) {
     code = // ask user for passcode
-    if(code == 19380724) {
+    if (code == 19380724) {
         access = true;
     }
 }
@@ -21,9 +21,9 @@ If you want to stop running a while loop in the middle of it, instead of running
 
 ```typescript
 let code: number;
-while(true) {
+while (true) {
     code = // ask user for passcode
-    if(code == 19380274) {
+    if (code == 19380274) {
         break;
     }
     console.log("Incorrect. Try again.");
@@ -37,7 +37,7 @@ Another useful tool is the `continue` command. It is similar to the `break` comm
 let fruits: string[] = ["apple","coconut","apple","banana","coconut","dragonfruit"]
 let count: number = 0;
 
-for(n = 0; n <= fruits.length - 1; n++) {
+for (n = 0; n <= fruits.length - 1; n++) {
    if (fruits[n] == "apple") {
       continue;
    }
