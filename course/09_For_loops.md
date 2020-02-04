@@ -13,7 +13,7 @@ The most basic loop is a for loop. It takes three inputs: initialization; condit
 
 The loop looks kind of like a if statement, except that the three arguments are split using semicolons:
 ```typescript
-for (initialization, condition, incrementation) {
+for (initialization; condition; incrementation) {
     // your content of the loop
 }
 ```
