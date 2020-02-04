@@ -2,10 +2,10 @@
 If you want to iterate through arrays or if you want to count from one to ten, it's very bad to do it like this:
 ```typescript
 let myFruits: string[] = ["apple", "banana", "coconut", "dragonfruit"];
-console.log("Fruit with index 0: " + fruits[0]);
-console.log("Fruit with index 1: " + fruits[1]);
-console.log("Fruit with index 2: " + fruits[2]);
-console.log("Fruit with index 3: " + fruits[3]);
+console.log("Fruit with index 0: " + myFruits[0]);
+console.log("Fruit with index 1: " + myFruits[1]);
+console.log("Fruit with index 2: " + myFruits[2]);
+console.log("Fruit with index 3: " + myFruits[3]);
 ```
 If you add one more item to the array, you would also have to add one more console.log call. That's where loops come in handy.
 
