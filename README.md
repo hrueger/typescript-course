@@ -14,6 +14,7 @@ This is a little TypeScript course I created. [Start right here!](./course/00_In
 9. [For loops](./course/09_For_loops.md)
 10. [While loops](./course/10_While_loops.md)
 11. [Shortcuts](./course/11_Shortcuts.md)
+12. [Functions](./course/12_Functions.md)
 
 ---
 ## Contribution
